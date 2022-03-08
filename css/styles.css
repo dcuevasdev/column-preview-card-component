@@ -1,0 +1,39 @@
+/*==========Fonts==========*/
+@font-face {
+  font-family: "lexendDeca";
+  src: url(../assets/Fonts/LexendDeca-Regular.ttf);
+}
+/*==========Variables==========*/
+:root {
+  --font-family: "lexendDeca";
+  --Bright-orange: #e38826;
+  --Dark-cyan: #006970;
+  --Very-dark-cyan: #004241;
+  --Transparent-white: hsla(0, 0%, 100%, 0.75);
+  --Very-light-gray: #f2f2f2;
+}
+
+/*==========Globals==========*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: var(--font-family);
+  font-size: 62.5%;
+  line-height: 1.5;
+  background-color: var(--light-gray);
+}
+.container {
+  display: grid;
+  place-content: center;
+  width: 100%;
+  padding-top: 2.41rem;
+}
+.main {
+  display: grid;
+  width: 90%;
+  max-width: 62rem;
+  margin: 0 auto;
+}
