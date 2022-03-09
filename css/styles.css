@@ -34,12 +34,12 @@ html {
   display: grid;
   place-content: center;
   width: 100%;
-  padding: 2.41rem 0;
+  padding: 2.4rem 0;
 }
 .main {
   display: grid;
   width: 90%;
-  max-width: 62rem;
+  max-width: 92rem;
   margin: 0 auto;
 }
 

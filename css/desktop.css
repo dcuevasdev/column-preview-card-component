@@ -1,0 +1,14 @@
+.container {
+  height: 100vh;
+  padding: 0;
+}
+.main {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.main__card-one {
+  border-radius: 0.8rem 0 0 0.8rem;
+}
+.main__card-three {
+  border-radius: 0 0.8rem 0.8rem 0;
+  background-color: var(--Very-dark-cyan);
+}
