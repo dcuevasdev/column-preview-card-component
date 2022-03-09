@@ -3,9 +3,15 @@
   font-family: "lexendDeca";
   src: url(../assets/Fonts/LexendDeca-Regular.ttf);
 }
+@font-face {
+  font-family: "bigShoulders";
+  src: url(../assets/Fonts/BigShouldersDisplay-Bold.ttf);
+}
+
 /*==========Variables==========*/
 :root {
-  --font-family: "lexendDeca";
+  --font-family-one: "lexendDeca";
+  --font-family-two: "bigShoulders";
   --Bright-orange: #e38826;
   --Dark-cyan: #006970;
   --Very-dark-cyan: #004241;
@@ -20,7 +26,6 @@
   box-sizing: border-box;
 }
 html {
-  font-family: var(--font-family);
   font-size: 62.5%;
   line-height: 1.5;
   background-color: var(--light-gray);
@@ -29,11 +34,72 @@ html {
   display: grid;
   place-content: center;
   width: 100%;
-  padding-top: 2.41rem;
+  padding: 2.41rem 0;
 }
 .main {
   display: grid;
   width: 90%;
   max-width: 62rem;
   margin: 0 auto;
+}
+
+/*==========Cards==========*/
+.main__card-one {
+  border-radius: 0.8rem 0.8rem 0 0;
+  background-color: var(--Bright-orange);
+}
+.main__card-two {
+  background-color: var(--Dark-cyan);
+}
+.main__card-three {
+  border-radius: 0 0 0.8rem 0.8rem;
+  background-color: var(--Very-dark-cyan);
+}
+.main__card {
+  width: 100%;
+  padding: 3.2rem;
+}
+.main__card-img,
+.main__card-title {
+  margin-bottom: 3.2rem;
+}
+.main__card-title {
+  font-family: var(--font-family-two);
+  font-size: 3.2rem;
+  color: var(--Very-light-gray);
+  text-transform: uppercase;
+}
+.main__card-text {
+  margin-bottom: 5.6rem;
+}
+.main__card-text p {
+  font-family: var(--font-family-one);
+  font-size: 1.5rem;
+  color: var(--Transparent-white);
+}
+
+.main__card-button {
+  width: 12rem;
+  height: 4rem;
+  border: none;
+  font-family: var(--font-family-one);
+  font-size: 1.2rem;
+  background-color: var(--Very-light-gray);
+  border-radius: 2.4rem;
+  outline: none;
+  cursor: pointer;
+}
+.btn-orange {
+  color: var(--Bright-orange);
+}
+.btn-light-cyan {
+  color: var(--Dark-cyan);
+}
+.btn-dark-cyan {
+  color: var(--Very-dark-cyan);
+}
+.main__card-button:hover {
+  border: 1px solid var(--Very-light-gray);
+  color: var(--Transparent-white);
+  background-color: transparent;
 }
