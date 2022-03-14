@@ -103,3 +103,19 @@ html {
   color: var(--Transparent-white);
   background-color: transparent;
 }
+
+/*==========Footer==========*/
+.main__footer {
+  justify-self: center;
+  margin-top: 0.8rem;
+  font-family: var(--font-family-one);
+  font-size: 1.2rem;
+}
+.main__footer a {
+  text-decoration: none;
+  color: black;
+}
+.main__footer a:hover {
+  text-decoration: underline;
+  color: var(--Bright-orange);
+}
