@@ -47,5 +47,5 @@ En el siguiente link puedes ver la [web del challenge](https://dcuevasdev.github
 
 ## 📥 Contacto
 
-- GitHub [@dcuevas24](https://github.com/dcuevasdev)
-- Twitter [@dcuevasr24](https://twitter.com/dcuevasdev)
+- GitHub [@dcuevasdev](https://github.com/dcuevasdev)
+- Twitter [@dcuevasdev](https://twitter.com/dcuevasdev)
