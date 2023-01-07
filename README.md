@@ -1,4 +1,4 @@
-<h1 align="center">🌌 Responsive single price component </h1>
+<h1 align="center">🌌 Column preview card </h1>
 
 <div align="center">
     Solución para un desafío de  <a href="https://www.frontendmentor.io/" target="_blank">frontendmentor.io</a>.
